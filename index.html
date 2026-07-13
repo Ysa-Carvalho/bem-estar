@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+    <title>Minhas Consultas | Organizador Médico</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
+
+    <style>
+        /* CSS entra aqui na próxima aula */
+    </style>
+    
+</head>
+
+<body>
+    <header class="topo">
+        <div class="logo">🩺 Bem-estar </div>
+        <nav aria-label="principal">
+            <a href="#proximas">Próximas Consultas</a>
+            <a href="#historico">Histórico</a>
+            <a href="#anexos">Anexos</a>
+        </nav>
+    </header>
+    <main>
+      <section class="saudacao">
+        <h1>Olá, Maya!✨</h1>
+        <p>Você tem <strong>2 consultas</strong> nessa semana!</p>
+      </section>  
+
+      <section id="proximas">
+        <h2>Próximas Consultas</h2>
+        
+        <article class="consulta">
+            <h3>Dra. Mariana Couto - Cardiologista</h3>
+            <time datetime="2026-07-08T14:30">Quarta-feira, 8 de julho, às 14h30</time>
+            <p>Hospital São Lucas | Sala 415</p>
+            <p class="lembrete"><em>Lembrar de levar exames de sangue</em></p>
+        </article>
+        <br>
+         <article class="consulta">
+            <h3>Dr. Rodrigo - Psiquiatra</h3>
+            <time datetime="2026-07-10T16:30">Sexta-feira, 10 de julho, às 16h30</time>
+            <p>Hospital HapVida | Sala 300</p>
+            <p class="lembrete"><em>Lembrar de levar documento de identificação</em></p>
+        </article>
+        </section>
+        <br>
+        <!--HISTÓRICO-->
+        <section id="historico" aria-labelledby="t-historico">
+            <h2 id="t-historico">Histórico Médico</h2>
+            <table>
+                <caption>Últimas consultas realizadas</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Data</th>
+                        <th scope="col">Profissional</th>
+                        <th scope="col">Observações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10/06/2026</td>
+                        <td>Dra.Ana Paula</td>
+                        <td>Consulta de rotina</td>
+                    </tr>
+
+                     <tr>
+                        <td>15/06/2026</td>
+                        <td>Dr.Carlos Silva</td>
+                        <td>Retorno de exames</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+</body>
+</html>
