@@ -68,17 +68,17 @@ body {
     font-weight: 600;
     font-size: 0.95rem;
     transition: var(--transicao);
-    padding: 6px 10-px;
+    padding: 6px 10px;
     border-radius: 6px;    
     
     }
 
 .topo nav a:hover {
-    color: ffffff;
-    background: rgba(255, 255, 0.1);
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
 }
 
-topo nav a focus-visible {
+topo nav a:focus-visible {
     outline: 2px solid var(--azul-suave);
     outline-offset: 2px;
 }
